@@ -14,7 +14,7 @@ int main(){
 	//print nLines
 	int curLine = 1;
 	int val = 1;
-	while(curLine <= nLines){
+	while(curLine<= nLines){
 		//print a line 
 		int nVal = curLine;
 		int cVal = 0;	//count of values that have been printed

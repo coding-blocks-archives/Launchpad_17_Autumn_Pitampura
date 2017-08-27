@@ -10,7 +10,7 @@ int main() {
 	if (a > b && a > c ) {
 		cout << a << " is largest" << endl;
 	}
-	else if (b > a && b > c){
+	else if (b > a && b > c) {
 		cout << "b is largest";
 		cout << endl;
 	}

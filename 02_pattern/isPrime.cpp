@@ -14,7 +14,7 @@ int main(){
 	int div = 2;
 
 	//checking
-	while(div < num){
+	while(div<num){
 		if (num % div == 0){
 			//confirmed that num is not prime
 			isPrime = false;
