@@ -4,7 +4,7 @@
 #include <iostream>
 using namespace std;
 
-void incArr(int a[10], int sze){
+void incArr(int arr[], int sze){
 	// int newArr[sze];
 	//need of creating a dynamic array
 
