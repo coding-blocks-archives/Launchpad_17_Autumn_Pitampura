@@ -19,4 +19,23 @@ void printArr(int arr[], int n){
     }
 }
 
+template <class T>
+void input2D(T arr[][20], int M, int N){
+    for(int i = 0; i < M; ++i){
+        for(int j = 0; j < N; ++j){
+            cin >> arr[i][j];
+        }
+    }
+}
+
+template<class T>
+void print2D(T arr[][20], int M, int N){
+    for(int i = 0; i < M; ++i){
+        for(int j = 0; j < N; ++j){
+            cout << arr[i][j] << " ";       
+        }
+        cout << endl;
+    }
+}
+
 #endif

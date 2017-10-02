@@ -52,7 +52,7 @@ void mergeSortedArray(int arr[], int si, int ei, int mid) {
 }
 
 
-void mergerSort(int arr[], int si, int ei) {
+void mergeSort(int arr[], int si, int ei) {
     if (si >= ei) {
         //no elements
         return;
@@ -60,8 +60,8 @@ void mergerSort(int arr[], int si, int ei) {
 
     int mid = (si + ei) / 2;
     //sort the left part
-    mergerSort(arr, si, mid);
-    mergerSort(arr, mid + 1, ei);
+    mergeSort(arr, si, mid);
+    mergeSort(arr, mid + 1, ei);
 
     mergeSortedArray(arr, si, ei, mid);
 
@@ -74,7 +74,7 @@ int main() {
     cin >> n;
     inputArr(arr, n);
 
-    mergerSort(arr, 0, n - 1);
+    mergeSort(arr, 0, n - 1);
 
     printArr(arr, n);
 }
